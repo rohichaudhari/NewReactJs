@@ -1,0 +1,22 @@
+.demo-1{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+   
+}
+.demo-2{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+   
+}
+.App{
+    display: flex;
+    gap: 20px;
+}
