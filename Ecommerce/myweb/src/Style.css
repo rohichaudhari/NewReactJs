@@ -1,0 +1,119 @@
+.icon{
+    position: relative;
+}
+.zero{
+    position: absolute;
+    left: 45px;
+    top: -1px;
+    background-color:  rgba(190, 17, 17);
+    color: white;
+    height: 15px;
+    width: 15px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.zero-1{
+    position: absolute;
+    right: -10px;
+    background-color: rgba(190, 17, 17);
+    color: white;
+    height: 15px;
+    width: 15px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.image-1 {
+
+    height: auto;
+    width:53vw;
+    border-radius: 10px;
+    background-image: url('../src/Assets/banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin-left:180px;
+}
+.image-2{
+    height:34vh;
+    width:30vw;
+    border-radius: 10px;
+    margin-left: 250px;
+    background-image: url('../src/Assets/banner-slider-01.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.image-3{
+    height: 40vh;
+    width:30vw;
+    border-radius: 10px;
+   
+    margin-left: 250px;
+    background-image: url('../src/Assets/banner-slider-02.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.dropdown{
+    display: none;
+    outline: 2px solid white;
+    background-color: white;
+}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    text-align: left;
+}
+.dropdown ul li{
+    display: block;
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+
+.demo{
+    position: relative;
+    background-color: white;
+
+}
+
+.homemenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 160px;
+    outline: 1px solid white;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+}
+/* :hover.homemenu {
+    border-top: 2px solid red;
+} */
+.homemenu ul li{
+    display: block;
+}
+ul li:hover .homemenu{
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.text{
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+}
