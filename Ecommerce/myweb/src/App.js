@@ -10,6 +10,7 @@ import './App.css';
  import Footer from './Component/Footer';
 import '../src/Style.css';
 import Header_2 from './Component/Header-2';
+import Home2 from './Component/Home2';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <FontAwesomeIcon/> */}
         <Header/>
         <Header_2/>
-        <Home/>
+        <Home2/>
+        {/* <Home/> */}
         <Categories/>
         
         <Products/>
